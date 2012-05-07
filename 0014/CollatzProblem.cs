@@ -6,7 +6,7 @@ class CollatzProblem
 	{
 		int menorNumero = 1, maiorCadeia = 1;
 
-		for (int inicioCadeia = 2; inicioCadeia < 1000000; inicioCadeia++)
+		for (int inicioCadeia = 1000000; inicioCadeia > 2; inicioCadeia--)
 		{
 			int tamanhoCadeia = TamanhoCadeia(inicioCadeia);
 			if (tamanhoCadeia > maiorCadeia) 
